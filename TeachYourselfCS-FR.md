@@ -6,7 +6,7 @@
 
 Si vous êtes un ingénieur autodidacte ou que vous avez participé à un _bootcamp_, vous vous devez d'apprendre la science informatique. Heureusement, vous pouvez vous instruire dans ce domaine sans y passer des années et sans dépenser une petite fortune dans un diplôme.
 
-Si les ressources disponibles sont nombreuses, toutes ne se valent pas. Vous n'avez pas besoin d'encore une autre liste de "200+ cours en ligne gratuits". Vous avez besoin de réponses aux questions suivantes:
+Si les ressources disponibles sont nombreuses, toutes ne se valent pas. Et vous n'avez pas besoin d'encore une autre liste de "200+ cours en ligne gratuits". Vous avez besoin de réponses aux questions suivantes:
 
 - **Quelles disciplines** devriez-vous apprendre, et pourquoi ?
 
@@ -17,7 +17,7 @@ Ce guide est notre tentative de répondre définitivement à toutes ces question
 ## TL;DR (en bref)
 
 
-Étudiez l'ensemble des neufs domaines suivants, plus ou moins dans l'ordre présenté, à l'aide du manuel ou des vidéos proposées (mais idéalement les deux). Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout au long de votre carrière 🚀.
+Étudiez l'ensemble des neufs domaines suivants, plus ou moins dans l'ordre présenté, à l'aide du manuel ou des vidéos proposées (idéalement les deux). Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout au long de votre carrière 🚀.
 
 | Domaine | Pourquoi l'étudier ? | Livre | Vidéos |
 | --------| -------------------- | ----- | ------ |
