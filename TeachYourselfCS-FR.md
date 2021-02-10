@@ -18,3 +18,15 @@ Ce guide est notre tentative de répondre définitivement à toutes ces question
 
 
 Étudiez l'ensemble des neufs domaines suivants, plus ou moins dans l'ordre présenté, à l'aide du manuel ou des vidéos proposées (mais idéalement les deux). Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout au long de votre carrière 🚀.
+
+| Domaine | Pourquoi l'étudier ? | Livre | Vidéos |
+| --------| -------------------- | ----- | ------ |
+| **Programmation** | Ne soyez pas la personne qui n'a "jamais vraiment bien compris" quelque chose comme la récursion. | _Structure and Interpretation of Computer Programs_ | Berkeley CS 61A par Brian Harvey|
+| **Architecture des ordinateurs** | Si vous n'avez pas une représentation mentale solide de la manière dont fonctionne un ordinateur, toutes vos abstractions de haut niveau en seront fragilisées. | _Computer Systems: A Programmer's Perspective_ | Berkeley CS 61C|
+| **Algorithmes et structures de données** | Si vous ne savez pas comment utiliser des structures de données omniprésentes, comme des piles, des queues, des arbres ou des graphes, alors vous ne serez pas en mesure de résoudre des problèmes difficiles. | _The Algorithm Design Manual_ | Les cours de Steven Skiena |
+| **Mathématiques pour l'informatique** | La science informatique est fondamentalement une branche dérivée des mathématiques appliquées aussi apprendre les mathématiques vous donnera un avantage compétitif. | _Mathematics for Computer Science_ | MIT 6.042J par Tom Leighton |
+| **Système d'exploitation** | La plupart du code que vous écrivez est exécuté par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
+| **Réseaux informatiques** | Internet s'est avéré être une grosse affaire: comprenez comment il fonctionne pour déployer son plein potentiel. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
+| **Bases de données** | Les données sont au coeurs des programmes les plus importants, or peu de personnes comprennent comment les systèmes de bases de données fonctionnent réellement. | _Readings in Database Systems_ | Berkeley CS 186 par Joe Hellerstein |
+| **Langages et compilateurs** | Si vous comprenez comment les langages et les compilateurs fonctionnent, votre code sera meilleur et il vous sera plus aisé d'apprendre de nouveaux langages. | _Crafting Interpreters_ | Le cours d'Alex Aiken sur edX |
+| **Systèmes distribués** | De nos jours, la plupart des systèmes sont distribués. | _Designing Data-Intensive Applications_ de Martin Kleppmann | MIT 6.824|
