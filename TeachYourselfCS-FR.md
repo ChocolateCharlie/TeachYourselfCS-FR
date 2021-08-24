@@ -24,7 +24,7 @@ Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout a
 | Domaine | Pourquoi l'étudier ? | Livre | Vidéos |
 | --------| -------------------- | ----- | ------ |
 | **[Programmation](#Programmation)** | Ne soyez pas la personne qui n'a "jamais vraiment bien compris" quelque chose comme la récursion. | _Structure and Interpretation of Computer Programs_ | Berkeley CS 61A par Brian Harvey|
-| **Architecture des ordinateurs** | Si vous n'avez pas une représentation mentale solide de la manière dont fonctionne un ordinateur, toutes vos abstractions de haut niveau en seront fragilisées. | _Computer Systems: A Programmer's Perspective_ | Berkeley CS 61C|
+| **[Architecture des ordinateurs](#Architecture-des-ordinateurs)** | Si vous n'avez pas une représentation mentale solide de la manière dont fonctionne un ordinateur, toutes vos abstractions de haut niveau en seront fragilisées. | _Computer Systems: A Programmer's Perspective_ | Berkeley CS 61C|
 | **Algorithmes et structures de données** | Si vous ne savez pas comment utiliser des structures de données omniprésentes, comme des piles, des queues, des arbres ou des graphes, alors vous ne serez pas en mesure de résoudre des problèmes difficiles. | _The Algorithm Design Manual_ | Les cours de Steven Skiena |
 | **Mathématiques pour l'informatique** | La science informatique est fondamentalement une branche dérivée des mathématiques appliquées, par conséquent apprendre les mathématiques vous donnera un avantage compétitif. | _Mathematics for Computer Science_ | MIT 6.042J par Tom Leighton |
 | **Système d'exploitation** | La plupart du code que vous écrivez est exécuté par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
@@ -69,3 +69,36 @@ Que vous vous efforciez de devenir un ingénieur de type 1 ou que vous soyez sim
 La plupart des licences en informatique commencent par une "introduction" à la programmation.
 _(Note de la traductrice: Ce texte a été écrit dans un contexte nord-américain.)_
 Les meilleures versions de ces cours profitent non seulement aux débutants, mais aussi à ceux qui ont manqué des concepts et modèles bénéfiques lors de leur premier apprentissage à programmer.
+Notre recommendation standard pour ce type de contenu est le classique _Structure and Interpretation of Computer Programs (SICP)_ qui est disponible gratuitement en ligne aussi bien sous forme de [livre](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) que sous forme de [vidéos de cours du MIT](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
+Bien que ces vidéos soient formidables, nous suggérons plutôt les [cours de Brian Harvey basés sur SICP](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (pour le cours 61A à Berkeley).
+Ceux-ci sont plus raffinés et conviennent mieux aux nouveaux étudiants que les cours du MIT.
+
+Nous recommandons de travailler au moins les trois premiers chapitres de SICP et de faire les exercices.
+Pour un entraînement supplémentaire, travaillez un ensemble de petit problèmes de programmation comme ceux sur [exercism](https://exercism.io/).
+
+Compte-tenu du fait que ce guide a été publié pour la première fois en 2016, l'une des questions les plus fréquemment posées a été si nous recommandions maintenant des enregistrements d'itérations plus récentes du cours 61A enseigné par John DeNero et/ou le livre correspondant _[Composing Programs](https://composingprograms.com/)_, qui est "dans la tradition du SICP" mais utilise le Python.
+Nous pensons que les ressources de DeNero sont également formidables et que certains étudiants pourraient en fin de compte les préférer, mais nous continuons de suggérer SICP, Scheme et les cours de Brian Harvey comme le premier jeu de ressources à essayer.
+
+Pourquoi ?
+Parce que SICP est unique dans ses capacités - au moins potentiellement - à altérer vos croyances fondamentales à propos des ordinateurs et de la programmation.
+Tout le monde n'expérimentera pas cela.
+Certains détesteront cet ouvrage, d'autres n'iront pas au-delà des premières pages, mais la récompense éventuelle vaut la peine d'essayer.
+
+Si vous n'aimez pas SICP, essayer _Composing Programs_.
+Si cela ne vous convient toujours pas, essayer _[How to Design Programs](https://htdp.org/)_.
+Si aucun de ces ouvrages ne semble récompenser vos efforts, peut-être est-ce signe que vous feriez mieux de vous concentrer sur d'autres sujet pour un moment et de repasser à cette discipline dans un an ou deux.
+
+Pour finir, un point de clarification: ce guide n'est PAS conçu pour ceux qui sont entièrement novices en programmation.
+Nous partons du principe que vous être un développeur compétent sans bagage en science informatique et qui cherche à combler des lacunes.
+Le fait que nous ayons inclu une section sur la "programmation" est simplement un rappel qu'il peut y avoir davantage à apprendre.
+Pour ceux qui n'ont jamais codé auparavant, mais qui aimeraient le faire, vous devriez préférer un guide tel que [celui-ci](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
+
+### Architecture des ordinateurs
+
+L'architecture des ordinateurs - parfois appelée "systèmes informatiques" ou "organisation des ordinateurs" - est un premier aperçu important à l'informatique en-dessous de la surface des logiciels.
+Selon notre expérience, c'est le domaine le plus négligé parmi les ingénieurs autodidactes.
+
+Notre livre introductif préféré est _[Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu/3e/home.html) (CS:APP)_ et un cours d'introduction typique à l'architecture des ordinateur basé sur cet ouvrage [couvre](https://csapp.cs.cmu.edu/3e/courses.html) la plupart des chapitres 1 à 6.
+
+Nous aimons CS:APP pour son approche pratique, orientée développeur.
+Bien que l'architecture des ordinateurs soit bien plus vaste que ce qui est couvert dans le livre, il sert d'excellent point de départ pour ceux qui aimeraient comprendre les systèmes informatiques principalement pour écrire des logiciels plus rapides, plus efficaces et plus fiables.
