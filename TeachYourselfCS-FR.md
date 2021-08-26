@@ -18,7 +18,7 @@ Ce guide est notre tentative de répondre définitivement à toutes ces question
 
 ## En bref
 
-Étudiez l'ensemble des neufs disciplines suivantes approximativement dans le même ordre à l'aide du manuel ou des vidéos conseillés (idéalement les deux).
+Étudiez l'ensemble des neufs disciplines suivantes approximativement dans le même ordre à l'aide du manuel ou des vidéos conseillées (idéalement les deux).
 Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout au long de votre carrière 🚀.
 
 | Domaine | Pourquoi l'étudier ? | Livre | Vidéos |
@@ -26,11 +26,11 @@ Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout a
 | **[Programmation](#Programmation)** | Ne soyez pas la personne qui n'a "jamais vraiment bien compris" quelque chose comme la récursion. | _Structure and Interpretation of Computer Programs_ | Berkeley CS 61A par Brian Harvey|
 | **[Architecture des ordinateurs](#Architecture-des-ordinateurs)** | Si vous n'avez pas une représentation mentale solide de la manière dont fonctionne un ordinateur, toutes vos abstractions de haut niveau en seront fragilisées. | _Computer Systems: A Programmer's Perspective_ | Berkeley CS 61C|
 | **[Algorithmes et structures de données](#Algorithmes-et-structures-de-données)** | Si vous ne savez pas comment utiliser des structures de données omniprésentes, comme des piles, des queues, des arbres ou des graphes, alors vous ne serez pas en mesure de résoudre des problèmes difficiles. | _The Algorithm Design Manual_ | Les cours de Steven Skiena |
-| **Mathématiques pour l'informatique** | La science informatique est fondamentalement une branche dérivée des mathématiques appliquées, par conséquent apprendre les mathématiques vous donnera un avantage compétitif. | _Mathematics for Computer Science_ | MIT 6.042J par Tom Leighton |
-| **Système d'exploitation** | La plupart du code que vous écrivez est exécuté par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
+| **[Mathématiques pour l'informatique](#Mathématiques-pour-l'informatique)** | La science informatique est fondamentalement une branche dérivée des mathématiques appliquées, par conséquent apprendre les mathématiques vous donnera un avantage compétitif. | _Mathematics for Computer Science_ | MIT 6.042J par Tom Leighton |
+| **Système d'exploitation** | La plupart du code que vous écrivez est exécutée par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
 | **Réseaux informatiques** | Internet s'est avéré être une grosse problématique: comprenez comment il fonctionne pour déployer son plein potentiel. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
 | **Bases de données** | Les données sont au coeurs des programmes les plus importants, or peu de personnes comprennent comment les systèmes de bases de données fonctionnent réellement. | _Readings in Database Systems_ | Berkeley CS 186 par Joe Hellerstein |
-| **Langages et compilateurs** | Si vous comprenez comment les langages et les compilateurs fonctionnent, votre code sera meilleur et il vous sera plus aisé d'apprendre de nouveaux langages. | _Crafting Interpreters_ | Le cours d'Alex Aiken sur edX |
+| **Langages et compilateurs** | Si vous comprenez comment les langages et les compilateurs fonctionnent, votre code en sera meilleur et il vous sera plus aisé d'apprendre de nouveaux langages. | _Crafting Interpreters_ | Le cours d'Alex Aiken sur edX |
 | **Systèmes distribués** | De nos jours, la plupart des systèmes sont distribués. | _Designing Data-Intensive Applications_ de Martin Kleppmann | MIT 6.824|
 
 ## C'est toujours trop ?
@@ -42,7 +42,7 @@ Ils peuvent également servir de "drogue d'initiation", vous ouvrant ainsi la po
 ## Pourquoi apprendre la science informatique ?
 
 Il y a deux types d'ingénieurs: ceux qui comprennent la science informatique suffisamment bien pour effectuer un travail audacieux et innovant, et ceux qui s'en sortent parce qu'ils sont familiers avec quelques outils de haut niveau.
-Les deux se font appeler ingénieurs informatiques, et les deux tendent à gagner des salaires similaires au début de leur carrière.
+Les deux se font appeler ingénieurs informatique, et les deux tendent à gagner des salaires similaires au début de leur carrière.
 Mais les ingénieurs de type 1 évoluent vers un travail plus épanouissant et bien rémunéré au cours du temps, qu'il s'agisse de travaux à valeur commerciale ou de projets _open-source_ avant-gardistes, de direction technique ou de contributions individuelles d'une grande qualité.
 
 > Le système de SMS global traite 20 milliards de messages par jour.
@@ -95,7 +95,7 @@ Pour ceux qui n'ont jamais codé auparavant, mais qui aimeraient le faire, vous 
 
 ### Architecture des ordinateurs
 
-L'architecture des ordinateurs - parfois appelée "systèmes informatiques" ou "organisation des ordinateurs" - est un premier aperçu important à l'informatique en-dessous de la surface des logiciels.
+L'architecture des ordinateurs - parfois appelée "systèmes informatiques" ou "organisation des ordinateurs" - est un premier aperçu important de l'informatique en-dessous de la surface des logiciels.
 Selon notre expérience, c'est le domaine le plus négligé parmi les ingénieurs autodidactes.
 
 Notre livre introductif préféré est _[Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu/3e/home.html) (CS:APP)_ et un cours d'introduction typique à l'architecture des ordinateur basé sur cet ouvrage [couvre](https://csapp.cs.cmu.edu/3e/courses.html) la plupart des chapitres 1 à 6.
@@ -127,5 +127,27 @@ Les notes de cours et travaux pratiques sont disponibles en ligne, et les cours 
 
 ### Algorithmes et structures de données
 
-Nous sommes d'accord avec des décennies de sens commun que la familiarité avec les algorithmes et structures de données courantes est l'un des aspects les plus valorisants d'une instruction à la science informatique.
+Nous sommes en accord avec des décennies de sens commun selon lequel la familiarité avec les algorithmes et structures de données courantes est l'un des aspects les plus valorisants d'une instruction à la science informatique.
 C'est également un excellent endroit pour entraîner ses capacités de résolution de problème en général, ce qui sera payant dans tous les autres domaines d'étude.
+
+Il existe des centaines de livres disponibles, mais notre préféré est _The Algorithm Design Manual_ de Steven Skiena.
+Il est évident qu'il aime la résolution de problèmes algorithmiques et réussi généralement à susciter un enthousiasme similaire auprès de ses étudiants et lecteurs.
+Selon nous, les deux ouvrages les plus souvent proposés (CLRS _(Note de la traductrice: Cormen, Leiserson, Rivest et Stein)_ et Sedgewick) tendent à être un petit peu trop alourdis de preuves pour ceux qui apprennent ce contenu principalement en vue de résoudre des problème en pratique.
+
+Pour ceux qui préfèrent les cours filmés, [Skiena fourni généreusement les siens en ligne](https://www3.cs.stonybrook.edu/~skiena/373/videos/).
+Nous aimons aussi beaucoup le cours de Tim Roughgarden, disponible sur [Coursera](https://www.coursera.org/specializations/algorithms) et [ailleurs](https://timroughgarden.org/videos.html).
+Préférer le style de Skiena ou de Roughgarden est une question de préférence personnelle.
+En fait, il existe des douzaines d'alternatives viables, aussi s'il vous arrive d'en trouver une autre que vous appréciez, nous vous encourageons à continuer avec !
+
+> Je n'ai qu'une seule méthode que je recommande largement - cela s'appelle réfléchir avant d'écrire.
+
+> — _Richard Hamming_
+
+Pour la pratique, notre approche préférée est pour les étudiants de résoudre des problèmes sur [Leetcode](https://leetcode.com/).
+Ces problèmes tendent à être intéressants pourvu de solutions et discussions décentes.
+Il aident également à mesurer les progrès face aux questions couramment utilisées pendant les entretiens techniques dans les companies les plus compétitives.
+Nous vous suggérons de résoudre environ 100 problèmes aléatoires sur leetcode comme une partie de vos études.
+
+Enfin nous recommandons vivement _How to Solve It_ comme un guide excellent et unique pour la résolution de problèmes en général ; c'est autant applicable à la science informatique qu'aux mathématiques.
+
+### Mathématiques pour l'informatique
