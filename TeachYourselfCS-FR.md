@@ -16,7 +16,7 @@ Vous avez besoin de réponses aux questions suivantes:
 
 Ce guide est notre tentative de répondre définitivement à toutes ces questions.
 
-## TL;DR (en bref)
+## En bref
 
 Étudiez l'ensemble des neufs disciplines suivantes approximativement dans le même ordre à l'aide du manuel ou des vidéos conseillés (idéalement les deux).
 Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout au long de votre carrière 🚀.
@@ -25,7 +25,7 @@ Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout a
 | --------| -------------------- | ----- | ------ |
 | **[Programmation](#Programmation)** | Ne soyez pas la personne qui n'a "jamais vraiment bien compris" quelque chose comme la récursion. | _Structure and Interpretation of Computer Programs_ | Berkeley CS 61A par Brian Harvey|
 | **[Architecture des ordinateurs](#Architecture-des-ordinateurs)** | Si vous n'avez pas une représentation mentale solide de la manière dont fonctionne un ordinateur, toutes vos abstractions de haut niveau en seront fragilisées. | _Computer Systems: A Programmer's Perspective_ | Berkeley CS 61C|
-| **Algorithmes et structures de données** | Si vous ne savez pas comment utiliser des structures de données omniprésentes, comme des piles, des queues, des arbres ou des graphes, alors vous ne serez pas en mesure de résoudre des problèmes difficiles. | _The Algorithm Design Manual_ | Les cours de Steven Skiena |
+| **Algorithmes et structures de données(#Algorithmes-et-structures-de-données)** | Si vous ne savez pas comment utiliser des structures de données omniprésentes, comme des piles, des queues, des arbres ou des graphes, alors vous ne serez pas en mesure de résoudre des problèmes difficiles. | _The Algorithm Design Manual_ | Les cours de Steven Skiena |
 | **Mathématiques pour l'informatique** | La science informatique est fondamentalement une branche dérivée des mathématiques appliquées, par conséquent apprendre les mathématiques vous donnera un avantage compétitif. | _Mathematics for Computer Science_ | MIT 6.042J par Tom Leighton |
 | **Système d'exploitation** | La plupart du code que vous écrivez est exécuté par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
 | **Réseaux informatiques** | Internet s'est avéré être une grosse problématique: comprenez comment il fonctionne pour déployer son plein potentiel. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
@@ -102,3 +102,30 @@ Notre livre introductif préféré est _[Computer Systems: A Programmer's Perspe
 
 Nous aimons CS:APP pour son approche pratique, orientée développeur.
 Bien que l'architecture des ordinateurs soit bien plus vaste que ce qui est couvert dans le livre, il sert d'excellent point de départ pour ceux qui aimeraient comprendre les systèmes informatiques principalement pour écrire des logiciels plus rapides, plus efficaces et plus fiables.
+
+> Le matériel est la plate-forme.
+
+> — _Mike Acton, Directeur moteur à Insomniac Games
+> ([regardez sa conférence CppCon](https://www.youtube.com/watch?v=rX0ItVEVjHc))_
+
+Pour ceux qui préfèreraient une introduction plus douce et un équilibre entre les enjeux matériels et logiciels, nous suggérons _The Elements of Computing Systems_, aussi connu sous le nom "Nand2Tetris".
+C'est un ouvrage ambitieux qui tente de vous livrer une compréhension cohésive de comment tout fonctionne dans un ordinateur.
+Chaque chapitre implique de construire une petite partie du système entier, de l'écriture de portes logiques élémentaires en utilisant HDL, un CPU et un assembleur, jusqu'à une application de la taille d'un jeu de Tetris.
+
+Nous recommandons de lire les six premiers chapitres du livre et de réaliser les projets associés.
+Cela développera votre compréhension des liens entre l'architecture de la machine et le logiciel qui tourne dessus.
+
+La première moitié du livre (et l'ensemble de ses projets) sont disponibles gratuitement sur [le site web de Nand2Tetris](https://www.nand2tetris.org/).
+Il est aussi disponible sous forme d'un [cours Coursera accompagné de vidéos](https://www.coursera.org/learn/build-a-computer).
+
+En cherchant la simplicité et la cohésion, Nand2Tetris met de côté la profondeur.
+En particulier, deux concepts très importants dans l'architecture moderne des ordinateurs que sont le pipelining et la hiérarchie de la mémoire sont essentiellement absents du texte.
+
+Une fois que vous vous sentirez à l'aise avec le contenu de Nand2Tetris, nous vous proposons soit de revenir à CS:APP, soit d'envisager de lire _Computer Organization and Design_ de Patterson et Hennessy, un excellent ouvrage désormais classique.
+Toutes les sections du livre ne sont pas essentielles ; nous suggérons de suivre le cours [CS61C](https://inst.eecs.berkeley.edu/~cs61c/sp15/) de Berkeley, "Great Ideas in Computer Architecture" pour une lecture plus spécifique.
+Les notes de cours et travaux pratiques sont disponibles en ligne, et les cours passés sont disponible sur [Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
+
+### Algorithmes et structures de données
+
+Nous sommes d'accord avec des décennies de sens commun que la familiarité avec les algorithmes et structures de données courantes est l'un des aspects les plus valorisants d'une instruction à la science informatique.
+C'est également un excellent endroit pour entraîner ses capacités de résolution de problème en général, ce qui sera payant dans tous les autres domaines d'étude.
