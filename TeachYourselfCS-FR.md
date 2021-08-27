@@ -27,9 +27,9 @@ Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout a
 | **[Architecture des ordinateurs](#Architecture-des-ordinateurs)** | Si vous n'avez pas une représentation mentale solide de la manière dont fonctionne un ordinateur, toutes vos abstractions de haut niveau en seront fragilisées. | _Computer Systems: A Programmer's Perspective_ | Berkeley CS 61C|
 | **[Algorithmes et structures de données](#Algorithmes-et-structures-de-données)** | Si vous ne savez pas comment utiliser des structures de données omniprésentes, comme des piles, des queues, des arbres ou des graphes, alors vous ne serez pas en mesure de résoudre des problèmes difficiles. | _The Algorithm Design Manual_ | Les cours de Steven Skiena |
 | **[Mathématiques pour l'informatique](#Mathématiques-pour-l'informatique)** | La science informatique est fondamentalement une branche dérivée des mathématiques appliquées, par conséquent apprendre les mathématiques vous donnera un avantage compétitif. | _Mathematics for Computer Science_ | MIT 6.042J par Tom Leighton |
-| **Système d'exploitation** | La plupart du code que vous écrivez est exécutée par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
-| **Réseaux informatiques** | Internet s'est avéré être une grosse problématique: comprenez comment il fonctionne pour déployer son plein potentiel. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
-| **Bases de données** | Les données sont au coeurs des programmes les plus importants, or peu de personnes comprennent comment les systèmes de bases de données fonctionnent réellement. | _Readings in Database Systems_ | Berkeley CS 186 par Joe Hellerstein |
+| **[Système d'exploitation](#Système-d'exploitation)** | La plupart du code que vous écrivez est exécutée par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
+| **[Réseaux informatiques](#Réseaux-informatiques)** | Internet s'est avéré être une grosse problématique: comprenez comment il fonctionne pour déployer son plein potentiel. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
+| **[Bases de données](#Bases-de-données)** | Les données sont au coeurs des programmes les plus importants, or peu de personnes comprennent comment les systèmes de bases de données fonctionnent réellement. | _Readings in Database Systems_ | Berkeley CS 186 par Joe Hellerstein |
 | **Langages et compilateurs** | Si vous comprenez comment les langages et les compilateurs fonctionnent, votre code en sera meilleur et il vous sera plus aisé d'apprendre de nouveaux langages. | _Crafting Interpreters_ | Le cours d'Alex Aiken sur edX |
 | **Systèmes distribués** | De nos jours, la plupart des systèmes sont distribués. | _Designing Data-Intensive Applications_ de Martin Kleppmann | MIT 6.824|
 
@@ -151,3 +151,56 @@ Nous vous suggérons de résoudre environ 100 problèmes aléatoires sur leetcod
 Enfin nous recommandons vivement _How to Solve It_ comme un guide excellent et unique pour la résolution de problèmes en général ; c'est autant applicable à la science informatique qu'aux mathématiques.
 
 ### Mathématiques pour l'informatique
+
+> Si les gens ne croient pas que les mathématiques soient simples, c'est uniquement parce qu'ils ne réalisent pas à quel point la vie est compliquée.
+
+> — _John von Neumann_
+
+D'une certaine manière, la science informatique est une branche dérivée des mathématiques appliquée.
+Tandis que plusieurs ingénieurs logiciel essaient - et parviennent à des degrés variables - d'ignorer cela, nous vous encourageons d'en aborder l'étude de manière directe.
+Procéder ainsi avec succès vous donnera un énorme avantage compétitif sur ceux qui ne le font pas.
+
+Le domaine des mathématiques le plus pertinent pour la science informatique est généralement appelé "mathématiques discètes", où "discret" est opposé à "continu" et est vaguement une collection de sujets de mathématiques appliquées intéressants en-dehors de l'arithmétique.
+Compte-tenu de la définition souple, il n'aurait pas de sens d'essayer de couvrir l'entièreté des "mathématiques discrètes".
+Un objectif plus réaliste est de se forger une compréhension de la logique, de la combinatoire et probabilités, de la théorie des ensemble, de la théorie des graphe et un petit peu de la théorie des nombres formant la cryptographie.
+L'algèbre linéaire est un domaine d'étude additionnel qui vaut le coup, compte-tenu de son importance dans les graphismes et l'apprentissage automatique.
+
+Notre suggestion de point de départ pour les mathématiques discrètes est l'ensemble des [notes de cours de László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps).
+Le professeur Lovász a fait un très bon travail pour rendre le contenu abordable et intuitif, ce qui en fait un meilleur point de départ que bien des textes plus formels.
+
+Pour un approche plus avancée, nous conseillons _[Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_notes.pdf) (Note de la traductrice: lien mort au moment de la traduction, remplacé par un équivalent)_, notes de cours de la longueur d'un livre d'un cours éponyme du MIT.
+Les vidéos de ce cours sont également [disponibles gratuitement](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), et constituent notre recommandation de vidéos de cours pour les mathématiques discrètes.
+
+Pour l'algèbre linéaire, nous suggérons de commencer avec la série de vidéos _[Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)_, suivie du livre et des [vidéos de cours](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) de Gilbert Strang.
+
+### Système d'exploitation
+
+_Operating System Concept_ (le "livre du dinosaure") et _Modern Operating Systems_ sont des "classiques" sur les systèmes d'exploitation.
+Les deux ont fait l'objet de critiques quant à leur manque de clarté et, de manière générale, leur peu de souci vis-à-vis des étudiants.
+
+_Operating Systems: Three Easy Pieces (OSTEP)_ est une bonne alternative [disponible gratuitement en ligne](https://pages.cs.wisc.edu/~remzi/OSTEP/).
+Nous aimons en particulier la structure et la lisibilité de l'ouvrage, et nous avons l'impression que les exercices en valent le coup.
+
+Après OSTEP, nous vous encourageons à explorer les décisions de conception pour des systèmes d'exploitation spécifiques, à travers des livres du style "{Système d'exploitation} Intenals" comme _Lion's commentary on Unix_, _The Design and Implementation of the FreeBSD Operating System_ et _Mac OS X Internals_.
+Pour Linux, nous conseillons le fantastique _Linux Kernel Development_ de Robert Love.
+
+Une excellente manière de consolider votre compréhension des systèmes d'exploitation est de lire le code source d'un petit noyau et d'y ajouter des fonctionnalités.
+Un choix peut être [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), un portage d'Unix V6 en C ANSI et x86 maintenu dans le cadre d'un cours au MIT.
+OSTEP a un appendice de [travaux pratiques possibles avec xv6](https://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) avec plein d'idées formidables pour des projets éventuels.
+
+### Réseaux informatiques
+
+Sachant qu'une si grande partie de l'ingénierie logicielle réside sur des serveurs et des clients webk, un des domaine les plus rapidement valorisant en science informatique est les réseaux informatiques.
+Il se trouve que nos étudiants autodidactes qui étudient méthodiquement les réseaux comprennent enfin les termes, concepts et protocoles dont ils ont été entourés des années durant.
+
+> On ne peut pas regarder dans une boule de cristal et voir le futur.
+> Ce qu'Internet deviendra à l'avenir sera ce que la société en fera.
+
+> — _Bob Kahn_
+
+Notre livre préféré sur le sujet est _Computer Networking: A Top-Down Approach_.
+Les petits projets et exercices dans ce livre valent largement le coup d'être faits, et nous apprécions particulièrement les "travaux pratiques Wireshark" qu'ils ont [généreusement publié en ligne](Ohttps://gaia.cs.umass.edu/kurose_ross/wireshark.htm).
+
+Pour ceux qui préfèrent des vidéos de cours, nous vous suggérons le cours de Stanford _[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS)_ disponible auparavant sur la plateforme de MOOC de Stanford Lagunita, mais désormais malheureusement uniquement disponible comme des listes d'écoute non officielles sur Youtube.
+
+### Bases de données
