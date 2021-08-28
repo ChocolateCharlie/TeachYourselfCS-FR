@@ -30,8 +30,8 @@ Comptez 100 à 200 heures pour chaque sujet, puis revoyez vos préférés tout a
 | **[Système d'exploitation](#Système-d'exploitation)** | La plupart du code que vous écrivez est exécutée par un système d'exploitation donc vous devriez savoir comment celui-ci interagit. | _Operating Systems: Three Easy Pieces_ | Berkeley CS 162 |
 | **[Réseaux informatiques](#Réseaux-informatiques)** | Internet s'est avéré être une grosse problématique: comprenez comment il fonctionne pour déployer son plein potentiel. | _Computer Networking: A Top-Down Approach_ | Stanford CS 144 |
 | **[Bases de données](#Bases-de-données)** | Les données sont au coeurs des programmes les plus importants, or peu de personnes comprennent comment les systèmes de bases de données fonctionnent réellement. | _Readings in Database Systems_ | Berkeley CS 186 par Joe Hellerstein |
-| **Langages et compilateurs** | Si vous comprenez comment les langages et les compilateurs fonctionnent, votre code en sera meilleur et il vous sera plus aisé d'apprendre de nouveaux langages. | _Crafting Interpreters_ | Le cours d'Alex Aiken sur edX |
-| **Systèmes distribués** | De nos jours, la plupart des systèmes sont distribués. | _Designing Data-Intensive Applications_ de Martin Kleppmann | MIT 6.824|
+| **[Langages et compilateurs](#Langages-et-compilateurs)** | Si vous comprenez comment les langages et les compilateurs fonctionnent, votre code en sera meilleur et il vous sera plus aisé d'apprendre de nouveaux langages. | _Crafting Interpreters_ | Le cours d'Alex Aiken sur edX |
+| **[Systèmes distribués](#Systèmes-distribués)** | De nos jours, la plupart des systèmes sont distribués. | _Designing Data-Intensive Applications_ de Martin Kleppmann | MIT 6.824|
 
 ## C'est toujours trop ?
 
@@ -204,3 +204,63 @@ Les petits projets et exercices dans ce livre valent largement le coup d'être f
 Pour ceux qui préfèrent des vidéos de cours, nous vous suggérons le cours de Stanford _[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS)_ disponible auparavant sur la plateforme de MOOC de Stanford Lagunita, mais désormais malheureusement uniquement disponible comme des listes d'écoute non officielles sur Youtube.
 
 ### Bases de données
+
+Apprendre en autodidacte les systèmes de base de données recquiert davantage de travail qu'avec les autres sujets.
+C'est un domaine d'étude relativement récent (c'est-à-dire postérieur aux années 1970) avec de fortes motivations commerciales à ne pas partager les idées
+De surcroit, plusieurs excellents auteurs potentiels de manuels ont préféré rejoindre ou lancer une companie.
+
+Au vu des circonstances, nous encourageons les autodidactes à éviter de manière générale les manuels et à commencer avec [les enregistrement de CS 186](https://www.youtube.com/user/CS186Berkeley/videos), le cours sur les bases de données de Joe Hellerstein à Berkeley, et à passer ensuite à la lecture de papiers.
+
+Un papier qui vaut particulièrement le coup d'être mentionné à de nouveaux étudiants est "[Architecture of a Database System](db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)", qui fourni une vue d'ensemble unique sur le fonctionnement des systèmes de gestion de bases de données relationnelles (RDBMS).
+Cela servira de point de départ utile pour des études ultérieures.
+
+_Readings in Database Systems_, mieux connu sous le nom du "[livre rouge](http://www.redbook.io/)" des bases de données, est un ensemble d'articles compilés et édités par Peter Bailis, Joe Hellerstein et Michael Stonebraker.
+Pour ceux qui ont progressé au-delà du niveau de CS 186, le livre rouge devrait être leur prochain point d'étude.
+
+Si vous êtes intransigeant par rapport à l'utilisation d'un manuel d'introduction, nous vous suggérons _Database Management Systems_ de Ramakrishnan et Gehrke.
+Pour des étudiants plus avancés, le classique _Transaction Processing: Concepts and Techniques_ de Jim Gray vaut la peine, mais nous ne vous conseillons pas de l'utilise comme une première ressource.
+
+Enfin, la modélisation de données est un aspect du travail avec les bases de données négligé et peu enseigné.
+Le livre que nous suggérons à ce propos est _Data and Reality; A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World_.
+
+### Langages et compilateurs
+
+La majorité des développeurs apprennent des langages, tandis que la majorité des experts en informatique en apprennent sur les langages.
+Cela confère à l'expert en informatique un avantage distinct sur le développeur, même dans le domaine de la programmation !
+Leur connaissance généralise ; ils sont capable de comprendre une opération d'un nouveau langage plus profondément et plus rapidement que ceux qui se sont contentés d'apprendre des langages en particulier.
+
+Nous suggérons en guise de manuel introductif l'excellent _[Crafting Interpreters](https://craftinginterpreters.com/contents.html)_ de Bob Nystrom, disponible gratuitement en ligne.
+Il est bien organisé, très divertissant et convient à ceux dont le premier but est simplement de mieux comprendre leurs langages et leurs outils.
+Nous vous conseillons de prendre le temps d'étudier l'ensemble de l'ouvrage, en essayant n'importe quel "challenge" qui éveillerait votre intérêt.
+
+
+> Ne soyez pas un développeur de code préfait.
+> A la place, construisez des outils pour les utiliateurs et les autres développeurs.
+> Prenez note de l'histoire de l'industrie textile et d'acier : voulez-vous construire des machines et des outils, ou voulez-vous utiliser ces machines ?
+
+> — _Ras Bodik au début de son cours sur les compilateurs_
+
+Un conseil plus traditionnel est _Compilers: Principles, Techniques & Tools_, communément appelé "le livre du dragon".
+Malheureusement, il n'a pas été conçu pour les autodidactes mais pour que les enseignants puissent y puiser des sujets valant un à deux semestres pour leurs cours.
+
+Si vous choisissez d'utiliser le livre du dragon, il est quasiment essentiel que vous choisissiez ces sujets, idéalement avec l'aide d'un mentor.
+En fait, nous vous conseillons d'utiliser le livre du dragon, si c'est ce pour quoi vous optez, comme une référence complémentaire d'une série de cours filmés.
+Notre recommandation est celle d'[Alex Aiken sur edX](https://www.edx.org/course/compilers).
+
+### Systèmes distribués
+
+De même que les ordinateurs sont devenus plus nombreux, ils se sont également répandus.
+Alors qu'auparavant les entreprises auraient acheté des ordinateur de plus en plus important, il est désormais courant pour même de très petites applications de s'exécuter à travers plusieurs machines.
+Les systèmes distribués sont l'étude de la manière de raisonner à propos des pour et des contre impliqués dans cette pratique.
+
+Le livre que nous proposons pour un auto-apprentissage est _Designing Data-Intensive Applications (DDIA)_ de Matin Kleppmann.
+Bien meilleur qu'un manuel traditionnel, DDIA est un ouvrage très lisisble conçu pour ceux qui pratiquent, tout en évitant de sacrifier la prodondeur ou la rigueur.
+
+Pour ceux qui cherchent un livre plus traditionnel, ou qui préfèrent ce qui est disponible gratuitement en ligne, nous conseillons _[Distributed Systems](https://www.distributed-systems.net/index.php/books/ds3/)_, 3ème édition, de Maarten van Steen et Andrew Tanenbaum.
+
+Pour ceux qui préfèrent les vidéos, un excellent cours filmé disponible en ligne est [6.824 du MIT](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), un cours de niveau master enseigné par Robert Morris avec des notes disponibles [ici](https://pdos.csail.mit.edu/6.824/schedule.html).
+
+Peu importe votre choix de manuel ou d'autre ressource secondaire, l'étude des systèmes distribués recquiert absolument la lecture de papiers.
+Une bonne liste se trouve [ici](https://dsrg.pdos.csail.mit.edu/papers/), et nous vous encourageons grandement à créer votre propre chapitre de [Papers We Love](https://paperswelove.org/).
+
+## Foire aux questions
