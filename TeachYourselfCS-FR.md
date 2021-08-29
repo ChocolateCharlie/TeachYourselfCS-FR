@@ -308,3 +308,41 @@ Si vous êtes novices en programmation, nous vous conseillons de commencer par c
 Apprendre un langage de programmation en particulier est complètement différent d'apprendre un domaine des sciences informatiques - apprendre un langage est bien plus facile et a bien moins de valeur.
 Si vous connaissez déjà quelques langages, nous vous conseillons vivement de simplement suivre notre guide et ajuster votre acquisition de langages dans les interstices, ou de laisser ça pour plus tard.
 Si vous avez bien appris à programmer (comme à travers le livre _Structure and Interpretation of Computer Programs_), et en particulier si vous avez appris la compilation, alors cela devrait vous prendre à peine plus d'un week-end pour apprendre l'essentiel d'un nouveau langage, après quoi vous pourrez apprendre les librairies/outils/écosystème sur le tas.
+
+### Qu'en est-il de telle technologie à la mode ?
+
+Aucune technologie n'est suffisamment importante pour que son usage fasse partie du coeur de votre formation.
+D'un autre côté, il est réjouissant que vous soyez enthousiaste d'apprendre cette chose.
+Le truc est de travailler à rebours depuis cette technologie particulière au domaine ou concept sous-jacent, et d'apprendre celui-ci en profonder avant de voir comment votre technologie à la mode s'intègre dans le tout.
+
+### Pourquoi continuez-vous de recommander SICP (_Structure and Interpretation of Computer Programs_) ?
+
+Ecoutez, juste essayez-le.
+Certaines personnes trouvent SICP époustouflant, un caractère que peu d'ouvrages possèdent.
+Si vous ne l'aimez pas, vous pouvez toujours essayer quelque chose d'autre et peut-être revenir à SICP plus tard.
+
+### Pourquoi continuez-vous de recommander le livre du dragon ?
+
+Le livre du dragon est toujours la ressource la plus complète sur les compilateurs.
+Il a acquis mauvaise réputation, souvent parce qu'il insiste lourdement sur certains sujets qu'il est moins usuel d'aborder en détails de nos jours, comme le parsage.
+En fait ce livre n'a jamais été écrit dans l'intention d'être étudié de A à Z, mais seulement pour fournir suffisamment de matière pour qu'un enseignant puisse construire un cours.
+De manière analogue, un autodidacte peut choisir son propre parcours à travers le livre, ou préférer suivre pour le moment les conseils de lecture des instructeurs de cours disponibles en ligne par rapport à leur plan de cours.
+
+### Comment obtenir les manuels à peu de frais ?
+
+Beaucoup de manuels que nous conseillons sont disponibles gratuitement en ligne grâce à la générosité de leurs auteurs.
+Pour ceux qui ne le sont pas, nous vous conseillons d'acheter des exemplaires de seconde main d'anciennes éditions.
+En règle générale, s'il y a eu un peu plus qu'une poignée d'éditions d'un manuel, il y a de fortes chances pour qu'une édition plus ancienne soit parfaitement adéquate.
+Pour sûr, il y a peu de chances pour que la version la plus récente soit dix fois meilleure qu'une plus ancienne, même si cela correspond à la différence de prix !
+
+### Qui sont les auteurs ?
+
+A l'origine, ce guide a été écrit par [Oz Nova](https://twitter.com/oznova_) et [Myles Byrne](https://twitter.com/quackingduck), puis des mises à jours ont été ajoutées en 2020 par Oz.
+Il est basé sur notre expérience d'enseignement des bases de la science informatique à plus de 1000 étudiants, principalement des ingénieurs autodidactes et des diplômés de formations accélérées, dans des environnements en petit groupe à San Francisco et en ligne.
+Merci à tous nos étudiants pour leurs retours continuels sur les ressources pour l'auto-apprentissage.
+
+Nous sommes très confiants quant au fait que vous devriez vous enseigner tout ce qui précède, si vous en avez le temps et la motivation.
+Mais si vous préférez un programme intensif, structuré, mené par un instructeur, vous pourriez être intéressé par notre programme [Computer Science Intensive](https://bradfieldcs.com/csi/).
+Nous ne vous conseillons [PAS](https://ozwrites.com/masters/) de rejoindre un master.
+
+Pour les mises à jours de ce guide et des informations et ressources générales sur la science informatique, vous pourriez également avoir envie de rejoindre la [liste de diffusion de Bradfield](https://teachyourselfcs.com).
