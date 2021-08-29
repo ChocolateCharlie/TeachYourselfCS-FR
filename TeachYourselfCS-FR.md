@@ -264,3 +264,47 @@ Peu importe votre choix de manuel ou d'autre ressource secondaire, l'étude des 
 Une bonne liste se trouve [ici](https://dsrg.pdos.csail.mit.edu/papers/), et nous vous encourageons grandement à créer votre propre chapitre de [Papers We Love](https://paperswelove.org/).
 
 ## Foire aux questions
+
+### Quelle est l'audience ciblée par ce guide ?
+
+Nous avons en tête que vous êtes ingénieur en informatique autodidacte, diplômé d'une formation accélérée ou lycéen avancé, ou un étudiant à l'université cherchant à compléter son éducation institutionnelle avec de l'auto-apprentissage.
+La question de quand se lancer dans l'aventure est entièrement personnelle, mais la plupart des gens tendent à profiter d'une expérience professionnelle avant de s'embarquer en profondeur dans la théorie de la science informatique.
+Par exemple, nous avons remarqué que les apprenants adorent étudier les bases de données quand ils ont déjà travaillé avec à un niveau professionnel, ou sur les réseaux informatiques s'ils ont travaillé sur un ou deux projet web au préalable.
+
+### Qu'en est-il de l'IA/graphismes/tel sujet?
+
+Nous avons essayé de restreindre notre liste à des disciplines de science informatique dont nous pensons que chaque ingénieur informatique devrait connaître, peu indépendamment de leur spécialité ou de l'industrie, mais en se concentrant sur les systèmes.
+Selon notre expérience, ce sont les sujets avec le meilleur retour sur investissement pour l'immense majorité des ingénieurs autodidactes et des diplômés de formations accélérées, et qui fournissent des bases solides pour des études ultérieures.
+Par conséquent, vous serez dans une bien meilleure posture pour choisir des manuels ou papiers et en apprendre les concepts de base sans trop d'aide.
+Voici quelques points de départ que nous vous suggérons pour quelques "options" fréquentes:
+
+  - Pour l'intelligence artificielle : faites [le cours d'introduction à l'IA de Berkeley](http://ai.berkeley.edu/home.html) en regardant les vidéos et en réalisant l'excellent projet Pacman.
+ En ce qui concerne le manuel, utilisez _Artificial Intelligence: A Modern Approach_ de Russell et Norvig.
+  - Pour l'apprentissage automatique: faites le cours sur Coursera de Andrew Ng. Soyez patients, et veillez à bien comprendre les bases avant de vous précipiter sur les sujets tous beaux tous neufs comme l'apprentissage profond.
+  - Pour les graphismes: travaillez le contenu de [Berkeley CS 184](https://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html) et utilisez _Computer Graphics: Principles and Practice_ en guise de manuel.
+
+### Dans quelle mesure l'ordre proposé est-il innamovible ?
+
+En pratique, tous ces sujets ont une part importante d'imbrication, et se réfèrent mutuellement les uns les autres en boucle.
+Prenez par exemple les liens entre les mathématiques discrètes et les algorithmes: apprendre les mathématiques en premier vous aidera à analyser et comprendre les algorithme avec plus de profondeur, mais apprendre les algorithmes en premier vous donnera davantage de motivation et de contexte pour ensuite faire des mathématiques discrètes.
+Idéalement, vous devriez revoir les deux sujets à plusieurs reprises tout le long de votre carrière.
+
+Tel quel, l'ordre proposé est surtout là pour vous aider à commencer...
+si vous avez une raison impérieuse de préférer un ordre différent, alors allez-y.
+Les plus importants "pré-requis", selon nous, sont: architecture des ordinateurs avant systèmes d'exploitation ou bases de données, et réseaux et systèmes d'exploitation avant systèmes distribués.
+
+### Comment se situe ce guide par rapport aux cursus de la Open Source Society ou de freeCodeCamp ?
+
+Quand ce guide a été rédigé pour la première fois en 2016, [le guide de la OSS (Open Source Society)](https://github.com/ossu/computer-science) avait trop de disciplines, conseillait des ressources de moins bonnes qualité et trop nombreuses, et ne fournissait aucune explication ni guide sur les raisons qui faisaient de certains cours leur valeur.
+Nous nous sommes efforcés de restreindre notre liste de cours à ceux que vous devriez réellement connaître en tant qu'ingénieur en informatique, indépendamment de votre spécialité, et pour vous aider à comprendre pourquoi chaque cours a été inclu.
+Dans les années qui ont suivi, le guide de l'OSS s'est amélioré, mais nous pensons toujours que celui-ci propose un parcours plus clair et plus cohérent.
+
+freeCodeCamp se concentre principalement sur la programmation, pas sur la science informatique.
+Quant aux raisons pour lesquelles vous voudriez apprendre la science informatique, [voyez plus haut](#-Pourquoi-apprendre-la-science-informatique-?)
+Si vous êtes novices en programmation, nous vous conseillons de commencer par cela, et ensuite de revenir à ce guide dans un an ou deux.
+
+### Qu'en est-il de tel langage ?
+
+Apprendre un langage de programmation en particulier est complètement différent d'apprendre un domaine des sciences informatiques - apprendre un langage est bien plus facile et a bien moins de valeur.
+Si vous connaissez déjà quelques langages, nous vous conseillons vivement de simplement suivre notre guide et ajuster votre acquisition de langages dans les interstices, ou de laisser ça pour plus tard.
+Si vous avez bien appris à programmer (comme à travers le livre _Structure and Interpretation of Computer Programs_), et en particulier si vous avez appris la compilation, alors cela devrait vous prendre à peine plus d'un week-end pour apprendre l'essentiel d'un nouveau langage, après quoi vous pourrez apprendre les librairies/outils/écosystème sur le tas.
