@@ -12,7 +12,7 @@ Et vous n'avez pas besoin d'encore une autre liste de "200+ cours en ligne gratu
 Vous avez besoin de réponses aux questions suivantes:
 
 - **Quelles disciplines** apprendre, et pourquoi ?
-- Quel est **le meilleur livre ou la meilleure série de vidéos de cours** pour chacune de ces disciplines ?
+- Quel est **le meilleur livre ou la meilleure série de cours filmés** pour chacune de ces disciplines ?
 
 Ce guide est notre tentative de répondre définitivement à toutes ces questions.
 
@@ -80,13 +80,13 @@ Compte-tenu du fait que ce guide a été publié pour la première fois en 2016,
 Nous pensons que les ressources de DeNero sont également formidables et que certains étudiants pourraient en fin de compte les préférer, mais nous continuons de suggérer SICP, Scheme et les cours de Brian Harvey comme le premier jeu de ressources à essayer.
 
 Pourquoi ?
-Parce que SICP est unique dans ses capacités - au moins potentiellement - à altérer vos croyances fondamentales à propos des ordinateurs et de la programmation.
+Parce que SICP est unique dans ses capacités - du moins potentiellement - à altérer vos croyances fondamentales à propos des ordinateurs et de la programmation.
 Tout le monde n'expérimentera pas cela.
 Certains détesteront cet ouvrage, d'autres n'iront pas au-delà des premières pages, mais la récompense éventuelle vaut la peine d'essayer.
 
-Si vous n'aimez pas SICP, essayer _Composing Programs_.
-Si cela ne vous convient toujours pas, essayer _[How to Design Programs](https://htdp.org/)_.
-Si aucun de ces ouvrages ne semble récompenser vos efforts, peut-être est-ce signe que vous feriez mieux de vous concentrer sur d'autres sujet pour un moment et de repasser à cette discipline dans un an ou deux.
+Si vous n'aimez pas SICP, essayez _Composing Programs_.
+Si cela ne vous convient toujours pas, essayez _[How to Design Programs](https://htdp.org/)_.
+Si aucun de ces ouvrages ne semble récompenser vos efforts, peut-être est-ce signe que vous feriez mieux de vous concentrer sur d'autres sujets pour un moment et de repasser à cette discipline dans un an ou deux.
 
 Pour finir, un point de clarification: ce guide n'est PAS conçu pour ceux qui sont entièrement novices en programmation.
 Nous partons du principe que vous être un développeur compétent sans bagage en science informatique et qui cherche à combler des lacunes.
@@ -144,11 +144,11 @@ En fait, il existe des douzaines d'alternatives viables, aussi s'il vous arrive 
 > — _Richard Hamming_
 
 Pour la pratique, notre approche préférée est pour les étudiants de résoudre des problèmes sur [Leetcode](https://leetcode.com/).
-Ces problèmes tendent à être intéressants pourvu de solutions et discussions décentes.
+Ces problèmes tendent à être intéressants et pourvus de solutions et discussions décentes.
 Il aident également à mesurer les progrès face aux questions couramment utilisées pendant les entretiens techniques dans les companies les plus compétitives.
-Nous vous suggérons de résoudre environ 100 problèmes aléatoires sur leetcode comme une partie de vos études.
+Nous vous suggérons de résoudre environ 100 problèmes aléatoires sur leetcode comme une partie à part entière de vos études.
 
-Enfin nous recommandons vivement _How to Solve It_ comme un guide excellent et unique pour la résolution de problèmes en général ; c'est autant applicable à la science informatique qu'aux mathématiques.
+Enfin, nous recommandons vivement _How to Solve It_, un guide excellent et unique pour la résolution de problèmes en général ; cela est autant applicable à la science informatique qu'aux mathématiques.
 
 ### Mathématiques pour l'informatique
 
@@ -156,14 +156,14 @@ Enfin nous recommandons vivement _How to Solve It_ comme un guide excellent et u
 
 > — _John von Neumann_
 
-D'une certaine manière, la science informatique est une branche dérivée des mathématiques appliquée.
-Tandis que plusieurs ingénieurs logiciel essaient - et parviennent à des degrés variables - d'ignorer cela, nous vous encourageons d'en aborder l'étude de manière directe.
+D'une certaine manière, la science informatique est une branche dérivée des mathématiques appliquées.
+Tandis que plusieurs ingénieurs en informatique essaient - et parviennent à des degrés variables - d'ignorer cela, nous vous encourageons d'en aborder l'étude de manière directe.
 Procéder ainsi avec succès vous donnera un énorme avantage compétitif sur ceux qui ne le font pas.
 
-Le domaine des mathématiques le plus pertinent pour la science informatique est généralement appelé "mathématiques discètes", où "discret" est opposé à "continu" et est vaguement une collection de sujets de mathématiques appliquées intéressants en-dehors de l'arithmétique.
+Le domaine des mathématiques le plus pertinent pour la science informatique est généralement appelé "mathématiques discètes", où "discret" est opposé à "continu" et désigne vaguement une collection de sujets de mathématiques appliquées intéressants en-dehors de l'arithmétique.
 Compte-tenu de la définition souple, il n'aurait pas de sens d'essayer de couvrir l'entièreté des "mathématiques discrètes".
-Un objectif plus réaliste est de se forger une compréhension de la logique, de la combinatoire et probabilités, de la théorie des ensemble, de la théorie des graphe et un petit peu de la théorie des nombres formant la cryptographie.
-L'algèbre linéaire est un domaine d'étude additionnel qui vaut le coup, compte-tenu de son importance dans les graphismes et l'apprentissage automatique.
+Un objectif plus réaliste est de se forger une compréhension de la logique, de la combinatoire et probabilités, de la théorie des ensemble, de la théorie des graphes et un petit peu de la théorie des nombres formant la cryptographie.
+L'algèbre linéaire est un domaine d'étude supplémentaire qui vaut le coup, compte-tenu de son importance dans les graphismes et l'apprentissage automatique.
 
 Notre suggestion de point de départ pour les mathématiques discrètes est l'ensemble des [notes de cours de László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps).
 Le professeur Lovász a fait un très bon travail pour rendre le contenu abordable et intuitif, ce qui en fait un meilleur point de départ que bien des textes plus formels.
@@ -190,7 +190,7 @@ OSTEP a un appendice de [travaux pratiques possibles avec xv6](https://pages.cs.
 
 ### Réseaux informatiques
 
-Sachant qu'une si grande partie de l'ingénierie logicielle réside sur des serveurs et des clients webk, un des domaine les plus rapidement valorisant en science informatique est les réseaux informatiques.
+Sachant qu'une si grande partie de l'ingénierie logicielle réside sur des serveurs et des clients webs, un des domaines les plus rapidement valorisant en science informatique est les réseaux informatiques.
 Il se trouve que nos étudiants autodidactes qui étudient méthodiquement les réseaux comprennent enfin les termes, concepts et protocoles dont ils ont été entourés des années durant.
 
 > On ne peut pas regarder dans une boule de cristal et voir le futur.
@@ -206,8 +206,8 @@ Pour ceux qui préfèrent des vidéos de cours, nous vous suggérons le cours de
 ### Bases de données
 
 Apprendre en autodidacte les systèmes de base de données recquiert davantage de travail qu'avec les autres sujets.
-C'est un domaine d'étude relativement récent (c'est-à-dire postérieur aux années 1970) avec de fortes motivations commerciales à ne pas partager les idées
-De surcroit, plusieurs excellents auteurs potentiels de manuels ont préféré rejoindre ou lancer une companie.
+C'est un domaine d'étude relativement récent (c'est-à-dire postérieur aux années 1970) avec de fortes motivations commerciales pour ne pas partager les idées.
+De surcroit, plusieurs excellents auteurs potentiels de manuel ont préféré rejoindre ou lancer une companie.
 
 Au vu des circonstances, nous encourageons les autodidactes à éviter de manière générale les manuels et à commencer avec [les enregistrement de CS 186](https://www.youtube.com/user/CS186Berkeley/videos), le cours sur les bases de données de Joe Hellerstein à Berkeley, et à passer ensuite à la lecture de papiers.
 
@@ -218,7 +218,7 @@ _Readings in Database Systems_, mieux connu sous le nom du "[livre rouge](http:/
 Pour ceux qui ont progressé au-delà du niveau de CS 186, le livre rouge devrait être leur prochain point d'étude.
 
 Si vous êtes intransigeant par rapport à l'utilisation d'un manuel d'introduction, nous vous suggérons _Database Management Systems_ de Ramakrishnan et Gehrke.
-Pour des étudiants plus avancés, le classique _Transaction Processing: Concepts and Techniques_ de Jim Gray vaut la peine, mais nous ne vous conseillons pas de l'utilise comme une première ressource.
+Pour des étudiants plus avancés, le classique _Transaction Processing: Concepts and Techniques_ de Jim Gray vaut la peine, mais nous ne vous conseillons pas de l'utiliser comme une première ressource.
 
 Enfin, la modélisation de données est un aspect du travail avec les bases de données négligé et peu enseigné.
 Le livre que nous suggérons à ce propos est _Data and Reality; A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World_.
@@ -234,9 +234,9 @@ Il est bien organisé, très divertissant et convient à ceux dont le premier bu
 Nous vous conseillons de prendre le temps d'étudier l'ensemble de l'ouvrage, en essayant n'importe quel "challenge" qui éveillerait votre intérêt.
 
 
-> Ne soyez pas un développeur de code préfait.
+> Ne soyez pas un développeur de code préfabriqué.
 > A la place, construisez des outils pour les utiliateurs et les autres développeurs.
-> Prenez note de l'histoire de l'industrie textile et d'acier : voulez-vous construire des machines et des outils, ou voulez-vous utiliser ces machines ?
+> Prenez note de l'histoire de l'industrie du textile et de l'acier : voulez-vous construire des machines et des outils, ou voulez-vous utiliser ces machines ?
 
 > — _Ras Bodik au début de son cours sur les compilateurs_
 
@@ -300,7 +300,7 @@ Nous nous sommes efforcés de restreindre notre liste de cours à ceux que vous 
 Dans les années qui ont suivi, le guide de l'OSS s'est amélioré, mais nous pensons toujours que celui-ci propose un parcours plus clair et plus cohérent.
 
 freeCodeCamp se concentre principalement sur la programmation, pas sur la science informatique.
-Quant aux raisons pour lesquelles vous voudriez apprendre la science informatique, [voyez plus haut](#-Pourquoi-apprendre-la-science-informatique-?)
+Quant aux raisons pour lesquelles vous voudriez apprendre la science informatique, [voyez plus haut](#Pourquoi-apprendre-la-science-informatique-?).
 Si vous êtes novices en programmation, nous vous conseillons de commencer par cela, et ensuite de revenir à ce guide dans un an ou deux.
 
 ### Qu'en est-il de tel langage ?
@@ -341,7 +341,7 @@ A l'origine, ce guide a été écrit par [Oz Nova](https://twitter.com/oznova_) 
 Il est basé sur notre expérience d'enseignement des bases de la science informatique à plus de 1000 étudiants, principalement des ingénieurs autodidactes et des diplômés de formations accélérées, dans des environnements en petit groupe à San Francisco et en ligne.
 Merci à tous nos étudiants pour leurs retours continuels sur les ressources pour l'auto-apprentissage.
 
-Nous sommes très confiants quant au fait que vous devriez vous enseigner tout ce qui précède, si vous en avez le temps et la motivation.
+Nous sommes très confiants quant au fait que vous devriez apprendre tout ce qui précède, si vous en avez le temps et la motivation.
 Mais si vous préférez un programme intensif, structuré, mené par un instructeur, vous pourriez être intéressé par notre programme [Computer Science Intensive](https://bradfieldcs.com/csi/).
 Nous ne vous conseillons [PAS](https://ozwrites.com/masters/) de rejoindre un master.
 
