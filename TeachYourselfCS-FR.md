@@ -119,7 +119,7 @@ La première moitié du livre (et l'ensemble de ses projets) sont disponibles gr
 Il est aussi disponible sous forme d'un [cours Coursera accompagné de vidéos](https://www.coursera.org/learn/build-a-computer).
 
 En cherchant la simplicité et la cohésion, Nand2Tetris met de côté la profondeur.
-En particulier, deux concepts très importants dans l'architecture moderne des ordinateurs que sont le pipelining et la hiérarchie de la mémoire sont essentiellement absents du texte.
+En particulier, deux concepts très importants dans l'architecture moderne des ordinateurs que sont le pipelining et la hiérarchie de la mémoire sont quasi-totalement absents du texte.
 
 Une fois que vous vous sentirez à l'aise avec le contenu de Nand2Tetris, nous vous proposons soit de revenir à CS:APP, soit d'envisager de lire _Computer Organization and Design_ de Patterson et Hennessy, un excellent ouvrage désormais classique.
 Toutes les sections du livre ne sont pas essentielles ; nous suggérons de suivre le cours [CS61C](https://inst.eecs.berkeley.edu/~cs61c/sp15/) de Berkeley, "Great Ideas in Computer Architecture" pour une lecture plus spécifique.
@@ -168,7 +168,7 @@ L'algèbre linéaire est un domaine d'étude supplémentaire qui vaut le coup, c
 Notre suggestion de point de départ pour les mathématiques discrètes est l'ensemble des [notes de cours de László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps).
 Le professeur Lovász a fait un très bon travail pour rendre le contenu abordable et intuitif, ce qui en fait un meilleur point de départ que bien des textes plus formels.
 
-Pour un approche plus avancée, nous conseillons _[Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_notes.pdf) (Note de la traductrice: lien mort au moment de la traduction, remplacé par un équivalent)_, notes de cours de la longueur d'un livre d'un cours éponyme du MIT.
+Pour une approche plus avancée, nous conseillons _[Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_notes.pdf) (Note de la traductrice: lien mort au moment de la traduction, remplacé par un équivalent)_, notes de cours de la longueur d'un livre d'un cours éponyme du MIT.
 Les vidéos de ce cours sont également [disponibles gratuitement](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), et constituent notre recommandation de vidéos de cours pour les mathématiques discrètes.
 
 Pour l'algèbre linéaire, nous suggérons de commencer avec la série de vidéos _[Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)_, suivie du livre et des [vidéos de cours](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/) de Gilbert Strang.
@@ -199,7 +199,7 @@ Il se trouve que nos étudiants autodidactes qui étudient méthodiquement les r
 > — _Bob Kahn_
 
 Notre livre préféré sur le sujet est _Computer Networking: A Top-Down Approach_.
-Les petits projets et exercices dans ce livre valent largement le coup d'être faits, et nous apprécions particulièrement les "travaux pratiques Wireshark" qu'ils ont [généreusement publié en ligne](Ohttps://gaia.cs.umass.edu/kurose_ross/wireshark.htm).
+Les petits projets et exercices dans ce livre valent largement le coup d'être faits, et nous apprécions particulièrement les "travaux pratiques Wireshark" qu'ils ont [généreusement publiés en ligne](Ohttps://gaia.cs.umass.edu/kurose_ross/wireshark.htm).
 
 Pour ceux qui préfèrent des vidéos de cours, nous vous suggérons le cours de Stanford _[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS)_ disponible auparavant sur la plateforme de MOOC de Stanford Lagunita, mais désormais malheureusement uniquement disponible comme des listes d'écoute non officielles sur Youtube.
 
@@ -250,7 +250,7 @@ Notre recommandation est celle d'[Alex Aiken sur edX](https://www.edx.org/course
 ### Systèmes distribués
 
 De même que les ordinateurs sont devenus plus nombreux, ils se sont également répandus.
-Alors qu'auparavant les entreprises auraient acheté des ordinateur de plus en plus important, il est désormais courant pour même de très petites applications de s'exécuter à travers plusieurs machines.
+Alors qu'auparavant les entreprises auraient acheté des ordinateurs de plus en plus importants, il est désormais courant pour même de très petites applications de s'exécuter à travers plusieurs machines.
 Les systèmes distribués sont l'étude de la manière de raisonner à propos des pour et des contre impliqués dans cette pratique.
 
 Le livre que nous proposons pour un auto-apprentissage est _Designing Data-Intensive Applications (DDIA)_ de Matin Kleppmann.
@@ -268,8 +268,8 @@ Une bonne liste se trouve [ici](https://dsrg.pdos.csail.mit.edu/papers/), et nou
 ### Quelle est l'audience ciblée par ce guide ?
 
 Nous avons en tête que vous êtes ingénieur en informatique autodidacte, diplômé d'une formation accélérée ou lycéen avancé, ou un étudiant à l'université cherchant à compléter son éducation institutionnelle avec de l'auto-apprentissage.
-La question de quand se lancer dans l'aventure est entièrement personnelle, mais la plupart des gens tendent à profiter d'une expérience professionnelle avant de s'embarquer en profondeur dans la théorie de la science informatique.
-Par exemple, nous avons remarqué que les apprenants adorent étudier les bases de données quand ils ont déjà travaillé avec à un niveau professionnel, ou sur les réseaux informatiques s'ils ont travaillé sur un ou deux projet web au préalable.
+La question de quand se lancer dans l'aventure est entièrement personnelle, mais la plupart des gens a tendance à profiter d'une expérience professionnelle avant de s'embarquer en profondeur dans la théorie de la science informatique.
+Par exemple, nous avons remarqué que les apprenants adorent étudier les bases de données quand ils ont déjà travaillé avec à un niveau professionnel, ou sur les réseaux informatiques s'ils ont travaillé sur un ou deux projets web au préalable.
 
 ### Qu'en est-il de l'IA/graphismes/tel sujet?
 
@@ -313,18 +313,18 @@ Si vous avez bien appris à programmer (comme à travers le livre _Structure and
 
 Aucune technologie n'est suffisamment importante pour que son usage fasse partie du coeur de votre formation.
 D'un autre côté, il est réjouissant que vous soyez enthousiaste d'apprendre cette chose.
-Le truc est de travailler à rebours depuis cette technologie particulière au domaine ou concept sous-jacent, et d'apprendre celui-ci en profonder avant de voir comment votre technologie à la mode s'intègre dans le tout.
+Le truc est de travailler à rebours depuis cette technologie particulière au domaine ou concept sous-jacent, et d'apprendre celui-ci en profondeur avant de voir comment votre technologie à la mode s'intègre dans le tout.
 
 ### Pourquoi continuez-vous de recommander SICP (_Structure and Interpretation of Computer Programs_) ?
 
 Ecoutez, juste essayez-le.
-Certaines personnes trouvent SICP époustouflant, un caractère que peu d'ouvrages possèdent.
+Certaines personnes trouvent SICP époustouflant, une caractéristique que peu d'ouvrages possèdent.
 Si vous ne l'aimez pas, vous pouvez toujours essayer quelque chose d'autre et peut-être revenir à SICP plus tard.
 
 ### Pourquoi continuez-vous de recommander le livre du dragon ?
 
 Le livre du dragon est toujours la ressource la plus complète sur les compilateurs.
-Il a acquis mauvaise réputation, souvent parce qu'il insiste lourdement sur certains sujets qu'il est moins usuel d'aborder en détails de nos jours, comme le parsage.
+Il a acquis une mauvaise réputation, souvent parce qu'il insiste lourdement sur certains sujets qu'il est moins usuel d'aborder en détails de nos jours, comme le parsage.
 En fait ce livre n'a jamais été écrit dans l'intention d'être étudié de A à Z, mais seulement pour fournir suffisamment de matière pour qu'un enseignant puisse construire un cours.
 De manière analogue, un autodidacte peut choisir son propre parcours à travers le livre, ou préférer suivre pour le moment les conseils de lecture des instructeurs de cours disponibles en ligne par rapport à leur plan de cours.
 
